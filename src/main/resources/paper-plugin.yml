@@ -2,6 +2,7 @@ name: Uno
 version: '1.0-SNAPSHOT'
 main: gstech.yao37.uno
 author: yao37 # QQ:3212576603
+website: yao37.gstech.fun
 description: This plugin is a minigame plugin called Uno which you can have fun with your friends
 api-version: '1.20'
 commands:
