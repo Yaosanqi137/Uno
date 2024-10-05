@@ -1,0 +1,4 @@
+name: Uno
+version: '1.0-SNAPSHOT'
+main: gstech.yao37.uno
+api-version: '1.20'
