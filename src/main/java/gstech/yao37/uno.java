@@ -10,9 +10,9 @@ public final class uno extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MyListener(), this);
         // Plugin startup logic
         System.out.println("------------------------------------------------");
-        System.out.println("[Uno] Enabled");
-        System.out.println("[Uno] Version: " + getDescription().getVersion());
-        System.out.println("[Uno] Author: " + getDescription().getAuthors());
+        System.out.println("Enabled");
+        System.out.println("Version: " + getDescription().getVersion());
+        System.out.println("Author: " + getDescription().getAuthors());
         System.out.println("------------------------------------------------");
     }
 
@@ -20,8 +20,8 @@ public final class uno extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         System.out.println("------------------------------------------------");
-        System.out.println("[Uno] Disabled");
-        System.out.println("[Uno] Good night bro...");
+        System.out.println("Disabled");
+        System.out.println("Good night bro...");
         System.out.println("------------------------------------------------");
     }
 }
