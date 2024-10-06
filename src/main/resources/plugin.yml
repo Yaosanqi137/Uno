@@ -6,7 +6,8 @@ website: yao37.gstech.fun
 description: This plugin is a minigame plugin called Uno which you can have fun with your friends
 api-version: '1.20'
 commands:
-  forHelp:
+  uno:
     description: the main command of Uno plugin
-    usage: /uhelp
-    aliases: [uno, unohelp]
+    usage: use /uno command to show this message
+    permission: uno.help
+    permission-message: "You do not have permission to use this command"

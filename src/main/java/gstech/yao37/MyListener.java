@@ -6,6 +6,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 public class MyListener implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.setJoinMessage(event.getPlayer().getName() + "我操死你的妈!");
+        Bukkit.broadcastMessage("+ " + event.getPlayer().getName());
     }
 }
